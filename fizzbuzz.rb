@@ -2,5 +2,9 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(input)
-  return input
+  if input%3 ==0 && input%5 == 0 
+    return "FizzBuzz"
+  elsif input%3 == 0 
+    return "fizz"
+  elsif
 end
